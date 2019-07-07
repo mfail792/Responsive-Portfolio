@@ -41,20 +41,19 @@ a {
 } 
 
 nav     {   
-        float: right;
-        margin-top: 25px;
+    float: right;
+    margin-top: 25px;
              }
 
-             nav a {
-                color: #999;
-                text-decoration: none;
-                margin-left: 15px;
-                display: inline-block;
-                border-left: 1px solid #efefef;
-                padding-left: 15px;
-                line-height: 18px;
-            
-               }
+ nav a {
+     color: #999;
+     text-decoration: none;
+     margin-left: 15px;
+     display: inline-block;
+     border-left: 1px solid #efefef;
+     padding-left: 15px;
+     line-height: 18px;
+        }
             
 nav a:first-child {
       border-left: 0 none;
@@ -71,23 +70,23 @@ nav a:first-child {
     border-bottom: 3px solid #ccc;
      }
 
-     h1 {
-        font-size: 30px;
-        line-height: 49px;
-        border-bottom: 3px solid #ddd;
-        padding-bottom: 20px;
-        font-family: Georgia, 'Times New Roman', Times, serif;
-        font-weight: 700;
-        color: #4aaaa5;
-        margin-bottom: 20px;
+  h1 {
+    font-size: 30px;
+    line-height: 49px;
+    border-bottom: 3px solid #ddd;
+    padding-bottom: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 700;
+    color: #4aaaa5;
+    margin-bottom: 20px;
     
     }
         
 .auth-image {
     width: 200px;
-        margin-top: 10px;
-        float: left;
-        margin-right: 25px;
+    margin-top: 10px;
+    float: left;
+    margin-right: 25px;
         
         
 }
@@ -155,21 +154,21 @@ footer {
     border-radius: 4px;
     box-sizing: border-box;
     border-radius: 5px;
-  background-color: #f2f2f2;
-  padding: 20px;
+    background-color: #f2f2f2;
+    padding: 20px;
 }
 
 #box2   {
     width: 100%;
-  padding: 12px 20px;
-  margin: 8px 0;
-  display: inline-block;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  box-sizing: border-box;
-  border-radius: 5px;
-  background-color: #f2f2f2;
-  padding: 20px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
 }
 
 #box3   {
@@ -201,7 +200,11 @@ footer {
       background-image: url("https://www.toptal.com/designers/subtlepatterns/patterns/lilypads.png");
     }
     
-  }
+    .main-section {
+        padding-bottom: 400px;
+    }
+
+    }
 
   @media screen and (max-width: 768px) {
     body {
@@ -223,7 +226,6 @@ footer {
        
   }
 
-
   @media screen and (max-width: 640px) {
     body {
       background-image: url("https://www.toptal.com/designers/subtlepatterns/patterns/lilypads.png");
@@ -241,18 +243,18 @@ footer {
          margin: 20 0px 40px 0px;
          padding-left: 100px;
          width: 100%;
-     } 
+        } 
 
      nav {
 
         float: left;
         padding-left: 20px;
 
-    }
+        }
 
     .auth-image {
         width: 100%;
-    }
+        }
 
     #box1 {
         padding-left: 2px;
@@ -260,46 +262,45 @@ footer {
         padding-right: 60px;
         padding-bottom: 1px;
        
-    }
+            }
  
         #box2 {
-            padding-left: 2px;
-            padding-top: 5px;
-            padding-right: 60px;
-            padding-bottom: 1px;
+        padding-left: 2px;
+        padding-top: 5px;
+        padding-right: 60px;
+        padding-bottom: 1px;
            
         }
 
         #box3 {
-            padding-left: 2px;
-            padding-top: 10px;
-            padding-right: 60px;
-            padding-bottom: 20px;
+        padding-left: 2px;
+        padding-top: 10px;
+        padding-right: 60px;
+        padding-bottom: 20px;
         }
 
         form {
-            padding-right: 50px;
-            padding-bottom: 50px;
+        padding-right: 50px;
+        padding-bottom: 50px;
         }
 
         input.msgbox {
-            margin-top: 10px;
-            padding: 3px;
-            margin-bottom: 1px;
-            padding-bottom: 0;
+        margin-top: 10px;
+        padding: 3px;
+        margin-bottom: 1px;
+        padding-bottom: 0;
            
         }
 
         textarea.msgbox {
-            margin-bottom: 3px;
-            margin-top: 10px;
-            padding: 25px;
+        margin-bottom: 3px;
+        margin-top: 10px;
+        padding: 25px;
                
         }
 
         .main-section {
-          padding: 0;
-                    
-        }
+         padding: 0;
+                 }
 
   }
